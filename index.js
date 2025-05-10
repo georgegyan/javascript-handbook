@@ -29,24 +29,30 @@
 
 // console.log('Geo is online: $(online)');
 
-let fulName = "Geo";
-let age = 25;
-let isStudent = true;
+// let fulName = "Geo";
+// let age = 25;
+// let isStudent = true;
 
-document.getElementById("p1").textContent = `Your name is ${fulName}`;
-document.getElementById("p2").textContent = `You are ${age} years old`;
-document.getElementById("p3").textContent = `Enrolled: ${isStudent}`;
+// document.getElementById("p1").textContent = `Your name is ${fulName}`;
+// document.getElementById("p2").textContent = `You are ${age} years old`;
+// document.getElementById("p3").textContent = `Enrolled: ${isStudent}`;
 
-// arithmetic operators
-let students = 30;
+// // arithmetic operators
+// let students = 30;
 
-// students = students + 1;
+// // students = students + 1;
 
 
-console.log(students);
+// console.log(students);
 
-// let result = 23;
+// // let result = 23;
 
-let result = 0.046875;
+// let result = 0.046875;
 
-console.log(result);
+// console.log(result);
+
+// Accepting user input
+document.getElementById("mySubmit").onclick = function(){
+    username = document.getElementById("myText").value;
+    document.getElementById("myh1").textContent = `Hello ${username}`
+}
